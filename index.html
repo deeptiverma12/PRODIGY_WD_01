@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Hamburger Icon -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to <span>MyBrand</span></h1>
+        <p>Building digital experiences that inspire</p>
+        <a href="#about" class="btn">Explore More</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+      <h2>About Us</h2>
+      <p>
+        At <strong>MyBrand</strong>, we specialize in creating modern,
+        responsive, and user-friendly web solutions. Our team is dedicated to
+        innovation, design, and performance.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section dark fade-in">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card slide-up">
+          <h3>🌐 Web Design</h3>
+          <p>
+            Responsive UI/UX designs that are visually stunning and functional.
+          </p>
+        </div>
+        <div class="card slide-up">
+          <h3>💻 Development</h3>
+          <p>Scalable full-stack applications with modern technologies.</p>
+        </div>
+        <div class="card slide-up">
+          <h3>🤖 AI Solutions</h3>
+          <p>Smarter workflows with Artificial Intelligence integration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in">
+      <h2>Contact Us</h2>
+      <form class="contact-form slide-up">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 MyBrand. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
